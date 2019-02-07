@@ -21,7 +21,7 @@ let noiseStrength;
 
 
 function setup() {
-  createCanvas(1000, 600);
+  createCanvas(windowWidth, windowHeight);
   background(0, 255);
 
   drawMode = floor(random(1, 4));
